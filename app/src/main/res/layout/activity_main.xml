@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_30dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_marginTop="@dimen/_30dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="@string/intent_activity" />
+
+    <Button
+        android:id="@+id/btn_move"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Move"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/btn_move_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Movie Data"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:id="@+id/btn_move_object"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Movie Object"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:id="@+id/btn_move_to_application"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Movie To Application"
+        android:layout_marginTop="5dp"/>
+
+
+</LinearLayout>
